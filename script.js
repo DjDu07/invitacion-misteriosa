@@ -42,13 +42,14 @@ const screens = [
   `,
   () => `
     <div class="heart">❓</div>
-    <h1>Resultado revelado</h1>
-    <p>
-      Para revelarte el resultado que te salió…<br><br>
-      <strong>ve al Real Plaza Salaverry</strong><br>
-      <strong>el lunes 22/12 a las 3:00 pm</strong>.
-    </p>
-    <div class="hint">Prometo que valdrá la pena</div>
+        <h1>Resultado revelado</h1>
+        <p><em>Algunos resultados no se calculan… se viven.</em></p>
+        <p>
+          Para revelarte el resultado que te salió…<br><br>
+          <strong>ve al Real Plaza Salaverry</strong><br>
+          <strong>este sábado a las 3:00 pm</strong>.
+        </p>
+        <div class="hint">A veces, vale la pena seguir la curiosidad</div>
   `
 ];
 
