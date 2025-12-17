@@ -96,3 +96,21 @@ button:hover {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.1); }
 }
+
+/* Animación sutil para la frase final */
+.card em {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeReveal 1.8s ease forwards;
+}
+
+@keyframes fadeReveal {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
